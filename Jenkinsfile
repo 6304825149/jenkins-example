@@ -1,5 +1,5 @@
 pipeline {
-	agent {  label 'linux-node' }
+	agent {  label 'deepak-linux' }
 	stages {
 		stage('---clean----'){
 			tools {
